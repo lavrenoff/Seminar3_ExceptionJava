@@ -23,14 +23,12 @@
 
 // При возникновении проблемы с чтением-записью в файл, исключение должно быть корректно обработано, пользователь должен увидеть стектрейс ошибки.
 
-package DZ3;
-
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class seminar3_main {
-    public static void main(String[] args) {
+public class program {
+    public static void main(String[] args) {        
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Введите фамилию имя и отчество, используя пробел: ");
